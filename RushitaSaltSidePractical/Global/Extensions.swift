@@ -10,6 +10,19 @@ import UIKit
 import Foundation
 
 extension UILabel {
-    
+    func setUpLabel(title : String, titleColor : UIColor, titleFont : UIFont? = nil) {
+        self.textColor = titleColor
+        self.font = titleFont
+        self.text = title
+        self.backgroundColor = .clear
+    }
 }
 
+extension UITableView {
+    func registerTablViewCell(cellIdentifier : String)  {
+           let nib = UINib(nibName: cellIdentifier, bundle: nil)
+           self.register(nib, forCellReuseIdentifier: cellIdentifier)
+           self.tableFooterView = UIView()
+           self.showsVerticalScrollIndicator = false
+    }
+}
