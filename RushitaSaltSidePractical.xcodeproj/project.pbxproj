@@ -16,9 +16,12 @@
 		BA87FEE025B2AE1D00EFC53A /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA87FEDE25B2AE1D00EFC53A /* ListViewCell.swift */; };
 		BA87FEE125B2AE1D00EFC53A /* ListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA87FEDF25B2AE1D00EFC53A /* ListViewCell.xib */; };
 		BA87FEE425B2B00C00EFC53A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA87FEE325B2B00C00EFC53A /* Extensions.swift */; };
+		FC3CBECB109EC8A5F7EABBBA /* Pods_RushitaSaltSidePractical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F992E9A93413D7B0EB08B7BE /* Pods_RushitaSaltSidePractical.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C346D9E457D3856D6EE785E /* Pods-RushitaSaltSidePractical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RushitaSaltSidePractical.debug.xcconfig"; path = "Target Support Files/Pods-RushitaSaltSidePractical/Pods-RushitaSaltSidePractical.debug.xcconfig"; sourceTree = "<group>"; };
+		A91091784365A746CEF08D0E /* Pods-RushitaSaltSidePractical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RushitaSaltSidePractical.release.xcconfig"; path = "Target Support Files/Pods-RushitaSaltSidePractical/Pods-RushitaSaltSidePractical.release.xcconfig"; sourceTree = "<group>"; };
 		BA87FEC225B2AD6C00EFC53A /* RushitaSaltSidePractical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RushitaSaltSidePractical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA87FEC525B2AD6C00EFC53A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA87FEC725B2AD6C00EFC53A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +33,7 @@
 		BA87FEDE25B2AE1D00EFC53A /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
 		BA87FEDF25B2AE1D00EFC53A /* ListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewCell.xib; sourceTree = "<group>"; };
 		BA87FEE325B2B00C00EFC53A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F992E9A93413D7B0EB08B7BE /* Pods_RushitaSaltSidePractical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RushitaSaltSidePractical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +41,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3CBECB109EC8A5F7EABBBA /* Pods_RushitaSaltSidePractical.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36AACA99B7BC9A9654BA9ABC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C346D9E457D3856D6EE785E /* Pods-RushitaSaltSidePractical.debug.xcconfig */,
+				A91091784365A746CEF08D0E /* Pods-RushitaSaltSidePractical.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		58E078E2BD3DC0602594EF7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F992E9A93413D7B0EB08B7BE /* Pods_RushitaSaltSidePractical.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA87FEB925B2AD6C00EFC53A = {
 			isa = PBXGroup;
 			children = (
 				BA87FEC425B2AD6C00EFC53A /* RushitaSaltSidePractical */,
 				BA87FEC325B2AD6C00EFC53A /* Products */,
+				36AACA99B7BC9A9654BA9ABC /* Pods */,
+				58E078E2BD3DC0602594EF7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +156,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA87FED625B2AD6D00EFC53A /* Build configuration list for PBXNativeTarget "RushitaSaltSidePractical" */;
 			buildPhases = (
+				6F39ACEB60036692E06BE405 /* [CP] Check Pods Manifest.lock */,
 				BA87FEBE25B2AD6C00EFC53A /* Sources */,
 				BA87FEBF25B2AD6C00EFC53A /* Frameworks */,
 				BA87FEC025B2AD6C00EFC53A /* Resources */,
@@ -190,6 +216,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F39ACEB60036692E06BE405 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RushitaSaltSidePractical-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA87FEBE25B2AD6C00EFC53A /* Sources */ = {
@@ -342,6 +393,7 @@
 		};
 		BA87FED725B2AD6D00EFC53A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C346D9E457D3856D6EE785E /* Pods-RushitaSaltSidePractical.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -359,6 +411,7 @@
 		};
 		BA87FED825B2AD6D00EFC53A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A91091784365A746CEF08D0E /* Pods-RushitaSaltSidePractical.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
